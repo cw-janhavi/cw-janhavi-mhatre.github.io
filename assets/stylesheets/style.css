@@ -1,0 +1,131 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    background: #06162c;
+}
+nav{
+    height: 60px;
+    /* background: #000000; */
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: solid 1px black; */
+    position: sticky;
+}
+
+#logo{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+#navsoc{
+    justify-self: end;
+}
+#linkedin{
+    height: 30px;
+    width: auto;
+    padding-right: 20px;
+}
+
+#behance{
+    height: 27px;
+    width: auto;
+    padding-right: 20px;
+
+}
+
+#intro{
+    height: 500px;
+    display: grid;
+    grid-template-columns: 30% 1fr 30%;
+    column-gap: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    align-items: center;
+    /* background: #0B2447; */
+}
+
+.textbox{
+    justify-self: center;
+}
+
+.title{
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+}
+.imptext{
+    background: -webkit-linear-gradient(#173156, #8EDEFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subtitle{
+    color: white;
+    font-size: 17px
+}
+#mypic{
+    height: 370px;
+    width: auto;
+    justify-self: center;
+    align-self: center;
+    z-index: 1;
+}
+#cir1{
+    color: rgb(100,100,100,0.3);
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    font-size: 80px;
+    font-weight: 600;
+    z-index: 4;
+}
+.deco1{
+    width: 470px;
+    height: 470px;
+    border-radius: 500px;
+    border: 3px rgba(134, 170, 221, 0.2) solid;
+    color: rgba(136, 179, 249, 0);
+    position: absolute;
+    z-index: -1;
+
+}
+.deco2{
+    width: 70px;
+    height: 70px;
+    border-radius: 500px;
+    border: 3px rgba(134, 170, 221, 0.1) solid;
+    color: rgba(136, 179, 249, 0);
+    position: absolute;
+    z-index: -1;
+
+}
+.decosmol{
+    width: 30px;
+    height: 30px;
+    border-radius: 500px;
+    background: rgba(108, 146, 200, 0.5);
+    position: absolute;
+    z-index: 3;
+
+}
+.decosmoll{
+    width: 20px;
+    height:20px;
+    border-radius: 500px;
+    background: rgba(108, 146, 200, 0.5);
+    position: absolute;
+    z-index: 3;
+
+}
+.decosmolll{
+    width: 10px;
+    height:10px;
+    border-radius: 500px;
+    background: rgba(108, 146, 200, 0.5);
+    position: absolute;
+    z-index: 3;
+
+}
