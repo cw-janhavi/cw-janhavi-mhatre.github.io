@@ -1,0 +1,57 @@
+#skills{
+    padding-left: 30px;
+    padding-right: 20px;
+    height: 500px;
+}
+.skillhd{
+    justify-self: center;
+    font-size: 34px;
+    color: white;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+
+}
+#lstskill{
+    display: grid;
+    grid-template-columns: 50% 2% 1fr;
+}
+#softskills{
+    background-color: rgba(14, 37, 70, 0.7);
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 2px solid rgb(255, 255, 255, 0.5);
+    display: grid;
+    grid-template-columns: 37% 1fr;
+    align-items: center;
+}
+.softitem{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 8px;
+    color: white;
+}
+
+#techskills{
+    background-color: rgba(14, 37, 70, 0.7);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 2px solid rgb(255, 255, 255, 0.5);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    align-items: center;
+}
+.techitem{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 8px;
+    color: white;
+}
+
+#linee{
+    width: 27px;
+    background-color: aliceblue;
+}
