@@ -1,0 +1,60 @@
+#education{
+    /* background-image: linear-gradient(#06162c, #244e5a, #06162c); */
+    width: auto;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    padding-right: 30px;
+    padding-left: 30px;
+    align-items: center;
+}
+#edimg{
+    height: 110px;
+    width: auto;
+}
+.edulist{
+    padding-top: 30px;
+    /* display: grid;
+    grid-template-columns: 80% 1fr;
+    column-gap: 10px;
+    grid-template-areas: 
+    "course comp"
+    "school school"
+    "marks marks"; */
+    /* background-color: azure; */
+}
+
+.edulist{
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: white; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+}
+
+.ed{
+    
+    margin: 0px;
+}
+
+.edtit{
+    color: white;
+    grid-area: course;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.edsub1{
+    color: #F7F5F2;
+    grid-area: school;
+    font-style: italic;
+    font-weight: 300;
+}
+.edsub2{
+    color: #EFEFEF;
+    grid-area: marks;
+    font-weight: 200;
+}
+.edone{
+    grid-area: comp;
+    font-style: italic;
+    font-weight: 400;
+}
