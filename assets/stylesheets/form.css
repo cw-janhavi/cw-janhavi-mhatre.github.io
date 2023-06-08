@@ -1,0 +1,163 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(212, 212, 212, 0.2);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+form{
+    position: relative;
+    height: 90%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    font-size: 120%;
+    margin-bottom: 70%;
+}
+.input-field{
+    width: 90%;
+    height: 35%;
+    border-radius: 5px;
+    padding: 0.4% 2%;
+    border: 1.5px solid;
+    border-color: rgb(0, 0, 0, 0.4);
+    font-size: 0.9rem;
+    position: relative;
+}
+.border-red{
+    border-color: red;
+}
+.field{
+    margin: 5px 0px;
+    width: 100%;
+    /* height: 10%; */
+    /* background-color: aqua; */
+}
+#username-field{
+    height: 18%;
+    /* background-color: blue; */
+}
+#email-field{
+    height: 18%; 
+    /* background-color: aquamarine;   */
+}
+#password-field{
+    height: 18%;
+    /* background-color: aquamarine; */
+    
+}
+#conpassword-field{
+    height: 18%;
+    /* background-color: aquamarine; */
+}
+.error{
+    width: 100%;
+    font-size: 85%;
+    color: red;
+    padding: 0px;
+    padding-top: 3px;
+    margin: 0px;
+    word-wrap: break-word;
+    /* background-color: black; */
+}
+#submit-btn{
+    width: 30%;
+    height: 9%;
+    border: 0px;
+    border-radius: 8px;
+    justify-self: flex-end;
+}
+.btn-disabled{
+    background-color: rgb(0, 0, 255, 0.4);
+    color: rgb(255, 255, 255, 0.8);
+}
+.btn-abled{
+    background-color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.title{
+    font-size: 200%;
+    margin: 1.5%;
+}
+
+.flexy{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.some-eye{
+    justify-self: flex-end;
+    margin-right: 1%;
+}
+/* Icons */
+.eye{
+    height: 20px;
+    width: 20px;
+    /* position: absolute; */
+    cursor: pointer;
+    
+}
+/* #pass-eye, #pass-noeye{
+    left: 85%;
+    top: 50%;
+} */
+
+
+
+#pass-dark, #conpass-dark{
+    display: none;
+}
+
+
+
+/* Modal */
+.modal{
+    width: 30%;
+    height: 20%;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    padding: 1% 4%;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    box-shadow: 0px 0px 25px black;
+}
+.modal-text{
+    font-size: 90%;
+}
+#cross-btn{
+    align-self: end;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+.show{
+    display: flex;
+}
+.hide{
+    display: none;
+}
