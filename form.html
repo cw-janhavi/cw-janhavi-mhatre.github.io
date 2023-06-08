@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="assets/stylesheets/form.css">
+
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/ea4068dbba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Sign Up</h1>
+        <form>
+            <div class="field" id="username-field">
+                <label id="username" class="border-red" for="username">Username: </label><br>
+                <input id="username-input" class="input-field" type="text" placeholder="myusername"><br>
+                <div class="error" id="username-error"> </div>
+            </div>
+
+            <div class="field" id="email-field">
+                <label id="email" for="email">Email: </label><br>
+                <input id="email-input" class="input-field" type="text" placeholder="hello@example.com" required><br>
+                <div class="error" id="email-error"> </div>
+            </div>
+
+            <div class="field" id="password-field">
+                <label id="password" for="password">Password: </label><br>
+                <div class="flexy">
+                    <input id="password-input" class="input-field" type="password">
+                    <div class="some-eye">
+                    <div class="show-pass" id="hide-password">
+                        <img class="eye" id="pass-eye" src="assets/images/eye.png">
+                    </div>
+                    <div class="hide-pass hide" id="show-password">
+                        <img class="eye" id="pass-noeye" src="assets/images/noeye.png">
+                    </div>
+                    </div>
+                </div>
+                <div class="error" id="password-error"> </div>
+            </div>
+
+            <div class="field" id="conpassword-field">
+                <label id="conpassword" for="conpassword">Confirm Password: </label><br>
+                <input id="conpassword-input" class="input-field" type="password"><br>
+                <!-- <img class="eye eye-conpass" src="assests/images/eye.png">
+                <img class="eye eye-conpass" id="conpass-dark" src="assests/images/dark-eye.png"> -->
+                <div class="error" id="conpassword-error"> </div>
+            </div>
+        </form>
+        <button class="but btn-disabled" id="submit-btn">Sign Up</button>
+    </div>
+    <div class="modal">
+        <p id="cross-btn">x</p>
+        <p class="modal-text">You've successfully signed up!</p>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
